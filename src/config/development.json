@@ -1,0 +1,16 @@
+{
+  "allowOrigin": ["*"],
+  "server": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "database": {
+    "username": "postgres",
+    "password": "1",
+    "database": "meblog",
+    "host": "localhost",
+    "port": 6432,
+    "dialect": "postgres"
+  },
+  "secret": "wbs79hTGUtz3XOD3t1Ga4B55J6gJjC74"
+}

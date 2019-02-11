@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "eslint:recommended"
+  ],
+  "globals": {
+    "global": false,
+    "__dirname": false,
+    "require": false,
+    "config": false,
+    "env": false,
+    "module": false,
+    "process": false,
+    "ApplicationException": false,
+    "requireFromRoot": false
+  },
+  "rules": {
+    "indent": [2, 2, {"SwitchCase": 1}],
+    "no-unreachable": 2,
+    "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
+    "no-multi-spaces": 2,
+    "no-multi-str": 2,
+    "no-multiple-empty-lines": 2,
+    "space-infix-ops": 2,
+    "semi": [2, "always"]
+  },
+  "parserOptions": {
+    "ecmaVersion": 8
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "allowOrigin": ["*"],
+  "server": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "database": {
+    "username": "postgres",
+    "password": null,
+    "database": "database_production",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "secret": "ly11FVLIZCHZaZBmdOexRRlU9wxkWZiE"
+}
